@@ -234,6 +234,44 @@ color:var(--primary);
 margin-bottom:15px;
 }
 
+.grid-card{
+background:var(--card);
+border:1px solid var(--border);
+border-radius:16px;
+padding:30px;
+transition:all .3s ease;
+box-shadow:var(--shadow);
+}
+
+.grid-card:hover{
+transform:translateY(-8px);
+border-color:var(--primary);
+}
+
+.grid-card h3{
+color:var(--primary);
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:linear-gradient(
+135deg,
+#3b82f6,
+#2563eb
+);
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
 /* =====================
 TAGS
 ===================== */
