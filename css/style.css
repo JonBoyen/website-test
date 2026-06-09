@@ -1,6 +1,6 @@
 /* =========================================
 JONATHAN BOYEN PORTFOLIO
-PROFESSIONAL DARK THEME
+LAVENDER DARK THEME
 ========================================= */
 
 *{
@@ -10,22 +10,27 @@ box-sizing:border-box;
 }
 
 :root{
---primary:#E6E6FA;
---primary-light:#DFC5FE;
---secondary:#87CEEB;
 
 ```
---bg:#E6E6FA;
---surface:#DFC5FE;
---surface-light:#87CEEB;
+--primary:#DFC5FE;
+--primary-light:#E6E6FA;
+--secondary:#87CEEB;
 
---text:#ffffff;
---text-muted:#cbd5e1;
+--bg:#1B1325;
+--bg-secondary:#241835;
 
---border:rgba(255,255,255,.08);
+--surface:#2A1F38;
+--surface-light:#3A2A4D;
+
+--nav:#4A7BA7;
+
+--text:#FFFFFF;
+--text-muted:#D8D8E8;
+
+--border:rgba(255,255,255,0.10);
 
 --shadow:
-    0 15px 40px rgba(0,0,0,.35);
+    0 15px 40px rgba(0,0,0,0.35);
 ```
 
 }
@@ -49,29 +54,30 @@ line-height:1.7;
 overflow-x:hidden;
 
 background:
+
     radial-gradient(
         circle at top left,
-        rgba(59,130,246,.18),
+        rgba(230,230,250,0.15),
         transparent 30%
     ),
 
     radial-gradient(
         circle at top right,
-        rgba(139,92,246,.15),
+        rgba(223,197,254,0.20),
         transparent 30%
     ),
 
     radial-gradient(
         circle at bottom,
-        rgba(16,185,129,.10),
+        rgba(135,206,235,0.15),
         transparent 40%
     ),
 
     linear-gradient(
         135deg,
-        #020617,
-        #0f172a,
-        #111827
+        #1B1325,
+        #241835,
+        #2A1F38
     );
 
 min-height:100vh;
@@ -92,12 +98,12 @@ top:0;
 z-index:1000;
 
 background:
-    rgba(2,6,23,.85);
+    rgba(74,123,167,0.92);
 
 backdrop-filter:blur(12px);
 
 border-bottom:
-    1px solid var(--border);
+    1px solid rgba(255,255,255,0.15);
 ```
 
 }
@@ -147,9 +153,11 @@ gap:25px;
 .nav-links a{
 
 ```
-color:var(--text-muted);
+color:white;
 
 text-decoration:none;
+
+font-weight:500;
 
 transition:.3s;
 ```
@@ -159,13 +167,13 @@ transition:.3s;
 .nav-links a:hover{
 
 ```
-color:var(--primary-light);
+color:#E6E6FA;
 ```
 
 }
 
 /* =========================
-HERO
+HERO SECTION
 ========================= */
 
 .hero{
@@ -264,17 +272,17 @@ padding:14px 28px;
 background:
     linear-gradient(
         135deg,
-        var(--primary),
-        var(--secondary)
+        #DFC5FE,
+        #87CEEB
     );
 
-color:white;
+color:#1B1325;
 
 text-decoration:none;
 
 border-radius:10px;
 
-font-weight:600;
+font-weight:700;
 
 transition:.3s;
 ```
@@ -284,14 +292,16 @@ transition:.3s;
 .btn:hover{
 
 ```
-transform:
-    translateY(-4px);
+transform:translateY(-4px);
+
+box-shadow:
+    0 10px 25px rgba(135,206,235,0.25);
 ```
 
 }
 
 /* =========================
-CONTAINER
+PAGE LAYOUT
 ========================= */
 
 .container{
@@ -328,13 +338,13 @@ CARDS
 
 ```
 background:
-    rgba(15,23,42,.75);
+    rgba(42,31,56,0.85);
 
 backdrop-filter:
     blur(12px);
 
 border:
-    1px solid var(--border);
+    1px solid rgba(255,255,255,0.08);
 
 border-radius:18px;
 
@@ -376,10 +386,10 @@ gap:25px;
 
 ```
 background:
-    rgba(15,23,42,.75);
+    rgba(42,31,56,0.85);
 
 border:
-    1px solid var(--border);
+    1px solid rgba(255,255,255,0.08);
 
 border-radius:18px;
 
@@ -395,11 +405,10 @@ transition:.3s;
 .grid-card:hover{
 
 ```
-transform:
-    translateY(-8px);
+transform:translateY(-8px);
 
 border-color:
-    rgba(59,130,246,.4);
+    rgba(223,197,254,0.5);
 ```
 
 }
@@ -410,6 +419,14 @@ border-color:
 color:var(--primary-light);
 
 margin-bottom:15px;
+```
+
+}
+
+.grid-card p{
+
+```
+color:var(--text-muted);
 ```
 
 }
@@ -440,10 +457,10 @@ padding:12px 22px;
 border-radius:999px;
 
 background:
-    rgba(59,130,246,.15);
+    rgba(223,197,254,0.15);
 
 border:
-    1px solid rgba(59,130,246,.3);
+    1px solid rgba(223,197,254,0.3);
 
 color:white;
 ```
@@ -464,7 +481,7 @@ padding:40px;
 margin-top:80px;
 
 border-top:
-    1px solid var(--border);
+    1px solid rgba(255,255,255,0.08);
 
 color:var(--text-muted);
 ```
@@ -493,6 +510,12 @@ MOBILE
     justify-content:center;
 
     gap:12px;
+
+}
+
+.hero{
+
+    min-height:70vh;
 
 }
 
