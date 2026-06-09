@@ -126,19 +126,22 @@ align-items:center;
 
 }
 
-.logo{
+.logo a{
 
-```
-color:white;
+    color:#FFFFFF;
 
-text-decoration:none;
+    text-decoration:none;
 
-font-size:1.5rem;
+    padding:10px 18px;
 
-font-weight:700;
+    font-weight:600;
 
-letter-spacing:0.5px;
-```
+    transition:all .3s ease;
+
+    position:relative;
+
+    text-shadow:
+        0 1px 3px rgba(0,0,0,0.4);
 
 }
 
