@@ -4,14 +4,12 @@
 
 <head>
 
-```
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Resume | Jonathan Boyen</title>
 
 <link rel="stylesheet" href="css/style.css">
-```
 
 </head>
 
@@ -19,7 +17,6 @@
 
 <nav>
 
-```
 <div class="nav-container">
 
     <a href="index.html" class="logo">
@@ -39,13 +36,11 @@
     </div>
 
 </div>
-```
 
 </nav>
 
 <section class="hero">
 
-```
 <div class="hero-content">
 
     <h1>Professional Resume</h1>
@@ -59,13 +54,11 @@
     </p>
 
 </div>
-```
 
 </section>
 
 <div class="container">
 
-```
 <div class="card">
 
     <h2 class="section-title">Professional Profile</h2>
@@ -75,13 +68,11 @@
     </p>
 
 </div>
-```
 
 </div>
 
 <div class="container">
 
-```
 <h2 class="section-title">
     Professional Experience
 </h2>
@@ -125,13 +116,11 @@
     </div>
 
 </div>
-```
 
 </div>
 
 <div class="container">
 
-```
 <h2 class="section-title">
     Education
 </h2>
@@ -155,13 +144,11 @@
     </div>
 
 </div>
-```
 
 </div>
 
 <div class="container">
 
-```
 <h2 class="section-title">
     Volunteering
 </h2>
@@ -183,13 +170,11 @@
     </div>
 
 </div>
-```
 
 </div>
 
 <div class="container">
 
-```
 <h2 class="section-title">
     Key Skills
 </h2>
@@ -208,13 +193,11 @@
     <div class="tag">Teamwork</div>
 
 </div>
-```
 
 </div>
 
 <div class="container">
 
-```
 <h2 class="section-title">
     Certifications
 </h2>
@@ -226,13 +209,11 @@
     </p>
 
 </div>
-```
 
 </div>
 
 <div class="container">
 
-```
 <div class="card" style="text-align:center;">
 
     <h2 style="margin-bottom:20px;">
@@ -252,15 +233,12 @@
     </p>
 
 </div>
-```
 
 </div>
 
 <footer>
 
-```
 © 2026 Jonathan Boyen | Professional Portfolio
-```
 
 </footer>
 
